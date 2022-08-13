@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Registrarse</title>
+</head>
+
+<body class="form">
+    <nav class="formnav">
+        <div class="fondoform">
+            <div class="logoform">
+                <img src="img/Hotelia horizontal blanco.svg" alt="">
+            </div>
+                <div class="j">
+                    <h2>Eres más que bienvenido</h2>
+                </div>
+        </div>
+            <a href="login.html" class="item"><button class="salir"><i class="fa-solid fa-arrow-right-from-bracket"></i> Salir</button></a>
+        </nav>
+        <section class="for_info">
+            <div class="tituloform">
+                <h2>Registrarse</h2>
+            </div>
+            <div class="textform">
+                <div class="tipoform">
+                    <label for="cars">Tipo de documento</label>
+                    <br>
+                        <select name="tip" class="tip">
+                            <option value="escoger" selected>Escoja una opcion</option>
+                            <option value="cedula">Cedula de ciudadania</option>
+                            <option value="tarjeta">Tarjeta de identidad</option>
+                        </select>
+                </div>
+                    <div class="numform">
+                        <label for="">Numero de documento</label>
+                        <br>
+                        <input type="text">
+                    </div>
+                    <div class="namesform">
+                        <label for="">Nombres</label>
+                        <br>
+                        <input  type="text">
+                    </div>
+                    <div class="apellidoform">
+                        <label for="">Apellidos</label>
+                        <br>
+                        <input type="text">
+                    </div>
+                    <div class="fechform">
+                        <label for="">Fecha nacimiento</label>
+                        <br>
+                        <input class="dateform" type="date">
+                    </div>
+                    <div class="checkform">
+                        <label for="">Genero</label>
+                        <div>
+                            <div>
+                                <input type="radio" class="hombre">
+                                <label for="hombre">Hombre</label>
+                            </div>
+                            <div>
+                                <input type="radio" class="mujer" checked>
+                                <label for="mujer">Mujer</label>
+                            </div>
+                            <input type="radio" class="otro">
+                            <label for="otro">Otro</label>
+                        </div>
+                    </div>
+                    <div class="nacionalidadform">
+                        <label for="">País de origen</label>
+                        <br>
+                        <input type="country">
+                    </div>
+                    <div class="celularform">
+                        <label for="">Telefono de contacto</label>
+                        <br>
+                        <input type="text">
+                    </div>
+                    <div class="gmailform">
+                        <label for="">Email</label>
+                        <br>
+                        <input type="text">
+                    </div>
+                    <div class="fotof">
+                        <label for="">Foto</label>
+                        <br>
+                        <input class="fotoo" type="file"> 
+                    </div>
+                </div>
+                <div>
+                    <div class="contrasenaform">
+                        <label for="">Contraseña</label>
+                        <br>
+                        <input type="password">
+                    </div>
+                    <div class="confcontraform">
+                        <label for="">Confirmar contraseña</label>
+                        <br>
+                        <input type="password">
+                    </div>
+                    <div class="condiciones">
+                            <input type="checkbox">
+                            <label>Acepto Terminos y condiciones</label>
+                    </div>
+                    <div class="cambiarform">
+                        <a href="login.html" class="cambi">Ingresar</a>
+                    </div>    
+                </div>
+        </section>
+</body>
+</html>
